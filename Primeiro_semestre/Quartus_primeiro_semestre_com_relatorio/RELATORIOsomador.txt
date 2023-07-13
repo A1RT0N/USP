@@ -1,0 +1,14 @@
+Placa: (Placa Pequena) DE0-CV:
+Cyclone V: 5CEBA4F23C7
+Entrada SW0 - A1
+Entrada SW1 - A2
+Entrada SW2 - Cin
+Entrada SW3
+
+Saída LEDR0 - pin_name1
+Saída LEDR1 - pin_name3
+
+Expressões booleanas:
+
+pin_name1 = ((A1 xor A2)xor(Cin))
+pin_name3 = (A1+A2).Cin + A1.A2

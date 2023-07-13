@@ -1,0 +1,167 @@
+|palavras
+S1 <= 7segmentos:inst1.SA
+Y1 => Subtrador:inst5.Y
+X1 => Subtrador:inst5.X
+Y2 => Subtrador:inst2.Y
+X2 => Subtrador:inst2.X
+Y3 => Subtrador:inst4.Y
+X3 => Subtrador:inst4.X
+Y4 => Subtrador:JOAO.Y
+X4 => Subtrador:JOAO.X
+S2 <= 7segmentos:inst1.SB
+S3 <= 7segmentos:inst1.SC
+S4 <= 7segmentos:inst1.SD
+S5 <= 7segmentos:inst1.SE
+S6 <= 7segmentos:inst1.SF
+S7 <= 7segmentos:inst1.SG
+SS1 <= 7segmentos:inst.SA
+SS2 <= 7segmentos:inst.SB
+SS3 <= 7segmentos:inst.SC
+SS4 <= 7segmentos:inst.SD
+SS5 <= 7segmentos:inst.SE
+SS6 <= 7segmentos:inst.SF
+SS7 <= 7segmentos:inst.SG
+
+
+|palavras|7segmentos:inst1
+SD <= 52.DB_MAX_OUTPUT_PORT_TYPE
+D[0] => 25.IN3
+D[0] => 7.IN0
+D[0] => 16.IN3
+D[0] => 10.IN3
+D[0] => 20.IN3
+D[0] => 23.IN3
+D[0] => 14.IN3
+D[0] => 18.IN3
+D[0] => 12.IN3
+D[1] => 25.IN2
+D[1] => 19.IN2
+D[1] => 16.IN2
+D[1] => 5.IN0
+D[1] => 20.IN2
+D[1] => 24.IN2
+D[1] => 15.IN2
+D[1] => 11.IN2
+D[1] => 12.IN2
+D[2] => 25.IN1
+D[2] => 3.IN0
+D[2] => 16.IN1
+D[2] => 13.IN1
+D[2] => 23.IN1
+D[2] => 24.IN1
+D[2] => 22.IN1
+D[2] => 15.IN1
+D[2] => 14.IN1
+D[3] => 25.IN0
+D[3] => 19.IN0
+D[3] => 2.IN0
+D[3] => 20.IN0
+D[3] => 23.IN0
+D[3] => 24.IN0
+D[3] => 22.IN0
+D[3] => 18.IN0
+SA <= 53.DB_MAX_OUTPUT_PORT_TYPE
+SB <= 50.DB_MAX_OUTPUT_PORT_TYPE
+SC <= 54.DB_MAX_OUTPUT_PORT_TYPE
+SE <= 49.DB_MAX_OUTPUT_PORT_TYPE
+SF <= 51.DB_MAX_OUTPUT_PORT_TYPE
+SG <= 55.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|palavras|Subtrador:JOAO
+A <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+B => inst2.IN0
+B => inst4.IN0
+B => inst7.IN1
+Y => inst2.IN1
+Y => inst4.IN1
+Y => inst6.IN1
+X => inst.IN0
+X => inst6.IN0
+S <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|palavras|Subtrador:inst4
+A <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+B => inst2.IN0
+B => inst4.IN0
+B => inst7.IN1
+Y => inst2.IN1
+Y => inst4.IN1
+Y => inst6.IN1
+X => inst.IN0
+X => inst6.IN0
+S <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|palavras|Subtrador:inst2
+A <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+B => inst2.IN0
+B => inst4.IN0
+B => inst7.IN1
+Y => inst2.IN1
+Y => inst4.IN1
+Y => inst6.IN1
+X => inst.IN0
+X => inst6.IN0
+S <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|palavras|Subtrador:inst5
+A <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+B => inst2.IN0
+B => inst4.IN0
+B => inst7.IN1
+Y => inst2.IN1
+Y => inst4.IN1
+Y => inst6.IN1
+X => inst.IN0
+X => inst6.IN0
+S <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|palavras|7segmentos:inst
+SD <= 52.DB_MAX_OUTPUT_PORT_TYPE
+D[0] => 25.IN3
+D[0] => 7.IN0
+D[0] => 16.IN3
+D[0] => 10.IN3
+D[0] => 20.IN3
+D[0] => 23.IN3
+D[0] => 14.IN3
+D[0] => 18.IN3
+D[0] => 12.IN3
+D[1] => 25.IN2
+D[1] => 19.IN2
+D[1] => 16.IN2
+D[1] => 5.IN0
+D[1] => 20.IN2
+D[1] => 24.IN2
+D[1] => 15.IN2
+D[1] => 11.IN2
+D[1] => 12.IN2
+D[2] => 25.IN1
+D[2] => 3.IN0
+D[2] => 16.IN1
+D[2] => 13.IN1
+D[2] => 23.IN1
+D[2] => 24.IN1
+D[2] => 22.IN1
+D[2] => 15.IN1
+D[2] => 14.IN1
+D[3] => 25.IN0
+D[3] => 19.IN0
+D[3] => 2.IN0
+D[3] => 20.IN0
+D[3] => 23.IN0
+D[3] => 24.IN0
+D[3] => 22.IN0
+D[3] => 18.IN0
+SA <= 53.DB_MAX_OUTPUT_PORT_TYPE
+SB <= 50.DB_MAX_OUTPUT_PORT_TYPE
+SC <= 54.DB_MAX_OUTPUT_PORT_TYPE
+SE <= 49.DB_MAX_OUTPUT_PORT_TYPE
+SF <= 51.DB_MAX_OUTPUT_PORT_TYPE
+SG <= 55.DB_MAX_OUTPUT_PORT_TYPE
+
+

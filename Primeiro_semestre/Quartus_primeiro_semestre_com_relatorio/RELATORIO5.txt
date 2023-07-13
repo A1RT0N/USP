@@ -1,0 +1,34 @@
+Placa: (Placa Pequena) DE0-CV:
+Cyclone V: 5CEBA4F23C7
+Entrada SW0 - DO
+Entrada SW1 - D1
+Entrada SW2 - D2
+Entrada SW3 - D3 
+
+
+Expressões booleanas:
+Zero = !D3.!D2.!D1.!DO 
+Oito = D3.!D2.!D1.!DO
+Um = !D3.!D2.!D1.DO 
+Dois =!D3.!D2.D1.!D0  
+Três=!D3.!D2.D1.D0  
+Quatro = !D3.D2.!D1.!DO 
+Cinco=!D3.D2.!D1.DO  
+Seis =!D3.D2.D1.!DO  
+Sete = !D3.D2.D1.DO  
+Oito = D3.!D2.!D1.!DO
+Nove = D3.!D2.!D1.DO
+Dez=D3.!D2.D1.!DO
+Onze=D3.!D2.D1.DO
+Doze = D3.D2.!D1.!DO
+Treze=D3.D2.!DI.DO
+Quatorze=D3.D2.D1.!DO
+Quinze=D3.D2.D1.DO
+
+SA = H0 = Um + quatro + onze + treze
+SB = H1 = Cinco + seis + onze + doze + quatorze + quinze
+SC = H2 = Dois + doze + quatorze + quinze
+SD = H3 = Um + quatro + sete + dez + quinze
+SE = H4 = Um + tr~es + quatro + cinco + sete + nove
+SF = H5 = Um + dois + três + sete + treze
+SG= H6 = Zero + Um + sete + doze

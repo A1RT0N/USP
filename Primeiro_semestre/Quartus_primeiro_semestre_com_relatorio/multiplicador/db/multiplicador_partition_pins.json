@@ -1,0 +1,173 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "sinaldisplay",
+					"strict" : false
+				},
+				{
+					"name" : "mult0",
+					"strict" : false
+				},
+				{
+					"name" : "mult1",
+					"strict" : false
+				},
+				{
+					"name" : "mult2",
+					"strict" : false
+				},
+				{
+					"name" : "mult3",
+					"strict" : false
+				},
+				{
+					"name" : "mult4",
+					"strict" : false
+				},
+				{
+					"name" : "mult5",
+					"strict" : false
+				},
+				{
+					"name" : "mult6",
+					"strict" : false
+				},
+				{
+					"name" : "n0",
+					"strict" : false
+				},
+				{
+					"name" : "n1",
+					"strict" : false
+				},
+				{
+					"name" : "n2",
+					"strict" : false
+				},
+				{
+					"name" : "n3",
+					"strict" : false
+				},
+				{
+					"name" : "n4",
+					"strict" : false
+				},
+				{
+					"name" : "n5",
+					"strict" : false
+				},
+				{
+					"name" : "n6",
+					"strict" : false
+				},
+				{
+					"name" : "mas1",
+					"strict" : false
+				},
+				{
+					"name" : "mas2",
+					"strict" : false
+				},
+				{
+					"name" : "mas3",
+					"strict" : false
+				},
+				{
+					"name" : "mas4",
+					"strict" : false
+				},
+				{
+					"name" : "mas5",
+					"strict" : false
+				},
+				{
+					"name" : "mas6",
+					"strict" : false
+				},
+				{
+					"name" : "mas7",
+					"strict" : false
+				},
+				{
+					"name" : "mes9",
+					"strict" : false
+				},
+				{
+					"name" : "mes10",
+					"strict" : false
+				},
+				{
+					"name" : "mes11",
+					"strict" : false
+				},
+				{
+					"name" : "mes12",
+					"strict" : false
+				},
+				{
+					"name" : "mes13",
+					"strict" : false
+				},
+				{
+					"name" : "mes14",
+					"strict" : false
+				},
+				{
+					"name" : "mes15",
+					"strict" : false
+				},
+				{
+					"name" : "sinal2led",
+					"strict" : false
+				},
+				{
+					"name" : "sinal1led",
+					"strict" : false
+				},
+				{
+					"name" : "sinal1",
+					"strict" : false
+				},
+				{
+					"name" : "sinal2",
+					"strict" : false
+				},
+				{
+					"name" : "Q0",
+					"strict" : false
+				},
+				{
+					"name" : "Q1",
+					"strict" : false
+				},
+				{
+					"name" : "Q2",
+					"strict" : false
+				},
+				{
+					"name" : "Q3",
+					"strict" : false
+				},
+				{
+					"name" : "M0",
+					"strict" : false
+				},
+				{
+					"name" : "M1",
+					"strict" : false
+				},
+				{
+					"name" : "M2",
+					"strict" : false
+				},
+				{
+					"name" : "M3",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

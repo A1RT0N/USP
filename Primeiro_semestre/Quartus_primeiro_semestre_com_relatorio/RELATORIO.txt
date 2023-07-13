@@ -1,0 +1,15 @@
+Placa: (Placa Pequena) DE0-CV:
+Cyclone V: 5CEBA4F23C7
+Entrada SW0 = D (obstáculo na direita = 1, sem obstáculo na direita = 0)
+Entrada SW1 = F (obstáculo na frente = 1, sem obstáculo na frente = 0)
+Entrada SW2 = E (obstáculo na esquerda = 1, sem obstáculo na esquerda = 0)
+Saída LEDR0 = CD  (comando de direita)
+Saída LEDR1 = CF (comando de frente)
+Saída LEDR2 = CE (comando de esquerda)
+-> Nesse projeto, a frente é preferência. Ou seja, se a LED de CF ligar, as de CD e CE não ligam. Assim como se somente CD ligar ou se somente CE ligar ou ainda se CE e CD ligarem,
+CF liga.
+
+Expressões booleanas:
+CF = !F
+CE = (!E.D).F
+CD = ((!D.!E.F)+(D.E.F)+(!D.E)).F

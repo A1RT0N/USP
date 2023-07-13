@@ -1,0 +1,28 @@
+Placa: DE0-CV:
+Cyclone V: 5CEBA4F23C7
+
+SW0 = X
+SW1 = Y
+SW2 = B
+
+LEDR0 = S
+LEDR1 = A
+
+
+Nesse projeto, foi utilizado um subtrador simples cujas respostas estão em complemento de 2.
+Tabela Verdade:
+
+X  Y  B | A  S
+0  0  0 | 0  0
+0  0  1 | 1  1  
+0  1  0 | 1  1
+0  1  1 | 1  0
+1  0  0 | 0  1
+1  0  1 | 0  0
+1  1  0 | 0  0
+1  1  1 | 1  1
+
+
+Expressões booleanas:
+S = (X xor Y) xor B
+A = !X(Y+B) + Y.B

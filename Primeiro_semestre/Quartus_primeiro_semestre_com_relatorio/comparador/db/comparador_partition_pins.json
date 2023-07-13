@@ -1,0 +1,125 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "aigualb",
+					"strict" : false
+				},
+				{
+					"name" : "aresmaior",
+					"strict" : false
+				},
+				{
+					"name" : "bresmaior",
+					"strict" : false
+				},
+				{
+					"name" : "b8",
+					"strict" : false
+				},
+				{
+					"name" : "b9",
+					"strict" : false
+				},
+				{
+					"name" : "b10",
+					"strict" : false
+				},
+				{
+					"name" : "b11",
+					"strict" : false
+				},
+				{
+					"name" : "b12",
+					"strict" : false
+				},
+				{
+					"name" : "b13",
+					"strict" : false
+				},
+				{
+					"name" : "b14",
+					"strict" : false
+				},
+				{
+					"name" : "a17",
+					"strict" : false
+				},
+				{
+					"name" : "a16",
+					"strict" : false
+				},
+				{
+					"name" : "a15",
+					"strict" : false
+				},
+				{
+					"name" : "a14",
+					"strict" : false
+				},
+				{
+					"name" : "a13",
+					"strict" : false
+				},
+				{
+					"name" : "a12",
+					"strict" : false
+				},
+				{
+					"name" : "a10",
+					"strict" : false
+				},
+				{
+					"name" : "sinalhexX1",
+					"strict" : false
+				},
+				{
+					"name" : "sinalhexY2",
+					"strict" : false
+				},
+				{
+					"name" : "B0",
+					"strict" : false
+				},
+				{
+					"name" : "B2",
+					"strict" : false
+				},
+				{
+					"name" : "B3",
+					"strict" : false
+				},
+				{
+					"name" : "A0",
+					"strict" : false
+				},
+				{
+					"name" : "A2",
+					"strict" : false
+				},
+				{
+					"name" : "A1",
+					"strict" : false
+				},
+				{
+					"name" : "A3",
+					"strict" : false
+				},
+				{
+					"name" : "B1",
+					"strict" : false
+				},
+				{
+					"name" : "sinalX",
+					"strict" : false
+				},
+				{
+					"name" : "sinalY",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

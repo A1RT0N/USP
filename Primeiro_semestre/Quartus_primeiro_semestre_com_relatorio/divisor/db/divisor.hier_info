@@ -1,0 +1,632 @@
+|divisor
+sinalconta <= joaaoo.DB_MAX_OUTPUT_PORT_TYPE
+sinalx => joaaoo.IN0
+sinalx => sinalxled.DATAIN
+sinalx => sinalresto.DATAIN
+sinaly => joaaoo.IN1
+sinaly => sinalyled.DATAIN
+q0 <= 7segmentos:gfuygfgfgf.SA
+Y1 => unidadedivisao:inst.y
+Y1 => unidadedivisao:inst6.y
+Y1 => unidadedivisao:inst11.y
+Y1 => unidadedivisao:inst15.y
+Y1 => 7segmentos:chorei.D[0]
+X4 => unidadedivisao:inst.x
+X4 => 7segmentos:adssadasdasd.D[3]
+Y2 => unidadedivisao:inst3.y
+Y2 => unidadedivisao:inst8.y
+Y2 => unidadedivisao:inst12.y
+Y2 => unidadedivisao:inst16.y
+Y2 => 7segmentos:chorei.D[1]
+Y3 => unidadedivisao:inst4.y
+Y3 => unidadedivisao:inst9.y
+Y3 => unidadedivisao:inst13.y
+Y3 => unidadedivisao:inst17.y
+Y3 => 7segmentos:chorei.D[2]
+Y4 => unidadedivisao:inst5.y
+Y4 => unidadedivisao:inst10.y
+Y4 => unidadedivisao:inst14.y
+Y4 => unidadedivisao:inst18.y
+Y4 => 7segmentos:chorei.D[3]
+X3 => unidadedivisao:inst6.x
+X3 => 7segmentos:adssadasdasd.D[2]
+X2 => unidadedivisao:inst11.x
+X2 => 7segmentos:adssadasdasd.D[1]
+X1 => unidadedivisao:inst15.x
+X1 => 7segmentos:adssadasdasd.D[0]
+q1 <= 7segmentos:gfuygfgfgf.SB
+q2 <= 7segmentos:gfuygfgfgf.SC
+q3 <= 7segmentos:gfuygfgfgf.SD
+q4 <= 7segmentos:gfuygfgfgf.SE
+q5 <= 7segmentos:gfuygfgfgf.SF
+q6 <= 7segmentos:gfuygfgfgf.SG
+lsr0 <= 7segmentos:iuahughhh.SA
+lsr1 <= 7segmentos:iuahughhh.SB
+lsr2 <= 7segmentos:iuahughhh.SC
+lsr3 <= 7segmentos:iuahughhh.SD
+lsr4 <= 7segmentos:iuahughhh.SE
+lsr5 <= 7segmentos:iuahughhh.SF
+lsr6 <= 7segmentos:iuahughhh.SG
+yr1 <= 7segmentos:chorei.SA
+yr2 <= 7segmentos:chorei.SB
+yr3 <= 7segmentos:chorei.SC
+yr4 <= 7segmentos:chorei.SD
+yr5 <= 7segmentos:chorei.SE
+yr6 <= 7segmentos:chorei.SF
+yr7 <= 7segmentos:chorei.SG
+xr0 <= 7segmentos:adssadasdasd.SA
+xr1 <= 7segmentos:adssadasdasd.SB
+xr2 <= 7segmentos:adssadasdasd.SC
+xr3 <= 7segmentos:adssadasdasd.SD
+xr4 <= 7segmentos:adssadasdasd.SE
+xr5 <= 7segmentos:adssadasdasd.SF
+xr6 <= 7segmentos:adssadasdasd.SG
+sinalxled <= sinalx.DB_MAX_OUTPUT_PORT_TYPE
+sinalyled <= sinaly.DB_MAX_OUTPUT_PORT_TYPE
+sinalresto <= sinalx.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|divisor|7segmentos:gfuygfgfgf
+SD <= 52.DB_MAX_OUTPUT_PORT_TYPE
+D[0] => 25.IN3
+D[0] => 7.IN0
+D[0] => 16.IN3
+D[0] => 10.IN3
+D[0] => 20.IN3
+D[0] => 23.IN3
+D[0] => 14.IN3
+D[0] => 18.IN3
+D[0] => 12.IN3
+D[1] => 25.IN2
+D[1] => 19.IN2
+D[1] => 16.IN2
+D[1] => 5.IN0
+D[1] => 20.IN2
+D[1] => 24.IN2
+D[1] => 15.IN2
+D[1] => 11.IN2
+D[1] => 12.IN2
+D[2] => 25.IN1
+D[2] => 3.IN0
+D[2] => 16.IN1
+D[2] => 13.IN1
+D[2] => 23.IN1
+D[2] => 24.IN1
+D[2] => 22.IN1
+D[2] => 15.IN1
+D[2] => 14.IN1
+D[3] => 25.IN0
+D[3] => 19.IN0
+D[3] => 2.IN0
+D[3] => 20.IN0
+D[3] => 23.IN0
+D[3] => 24.IN0
+D[3] => 22.IN0
+D[3] => 18.IN0
+SA <= 53.DB_MAX_OUTPUT_PORT_TYPE
+SB <= 50.DB_MAX_OUTPUT_PORT_TYPE
+SC <= 54.DB_MAX_OUTPUT_PORT_TYPE
+SE <= 49.DB_MAX_OUTPUT_PORT_TYPE
+SF <= 51.DB_MAX_OUTPUT_PORT_TYPE
+SG <= 55.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|divisor|unidadedivisao:inst5
+b0 <= Subtrador:delbeim.A
+bi => Subtrador:delbeim.B
+y => Subtrador:delbeim.Y
+x => Subtrador:delbeim.X
+x => inst5.IN1
+d <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+os => inst3.IN0
+os => inst5.IN0
+
+
+|divisor|unidadedivisao:inst5|Subtrador:delbeim
+A <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+B => inst2.IN0
+B => inst4.IN0
+B => inst7.IN1
+Y => inst2.IN1
+Y => inst4.IN1
+Y => inst6.IN1
+X => inst.IN0
+X => inst6.IN0
+S <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|divisor|unidadedivisao:inst4
+b0 <= Subtrador:delbeim.A
+bi => Subtrador:delbeim.B
+y => Subtrador:delbeim.Y
+x => Subtrador:delbeim.X
+x => inst5.IN1
+d <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+os => inst3.IN0
+os => inst5.IN0
+
+
+|divisor|unidadedivisao:inst4|Subtrador:delbeim
+A <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+B => inst2.IN0
+B => inst4.IN0
+B => inst7.IN1
+Y => inst2.IN1
+Y => inst4.IN1
+Y => inst6.IN1
+X => inst.IN0
+X => inst6.IN0
+S <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|divisor|unidadedivisao:inst3
+b0 <= Subtrador:delbeim.A
+bi => Subtrador:delbeim.B
+y => Subtrador:delbeim.Y
+x => Subtrador:delbeim.X
+x => inst5.IN1
+d <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+os => inst3.IN0
+os => inst5.IN0
+
+
+|divisor|unidadedivisao:inst3|Subtrador:delbeim
+A <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+B => inst2.IN0
+B => inst4.IN0
+B => inst7.IN1
+Y => inst2.IN1
+Y => inst4.IN1
+Y => inst6.IN1
+X => inst.IN0
+X => inst6.IN0
+S <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|divisor|unidadedivisao:inst
+b0 <= Subtrador:delbeim.A
+bi => Subtrador:delbeim.B
+y => Subtrador:delbeim.Y
+x => Subtrador:delbeim.X
+x => inst5.IN1
+d <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+os => inst3.IN0
+os => inst5.IN0
+
+
+|divisor|unidadedivisao:inst|Subtrador:delbeim
+A <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+B => inst2.IN0
+B => inst4.IN0
+B => inst7.IN1
+Y => inst2.IN1
+Y => inst4.IN1
+Y => inst6.IN1
+X => inst.IN0
+X => inst6.IN0
+S <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|divisor|unidadedivisao:inst10
+b0 <= Subtrador:delbeim.A
+bi => Subtrador:delbeim.B
+y => Subtrador:delbeim.Y
+x => Subtrador:delbeim.X
+x => inst5.IN1
+d <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+os => inst3.IN0
+os => inst5.IN0
+
+
+|divisor|unidadedivisao:inst10|Subtrador:delbeim
+A <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+B => inst2.IN0
+B => inst4.IN0
+B => inst7.IN1
+Y => inst2.IN1
+Y => inst4.IN1
+Y => inst6.IN1
+X => inst.IN0
+X => inst6.IN0
+S <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|divisor|unidadedivisao:inst9
+b0 <= Subtrador:delbeim.A
+bi => Subtrador:delbeim.B
+y => Subtrador:delbeim.Y
+x => Subtrador:delbeim.X
+x => inst5.IN1
+d <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+os => inst3.IN0
+os => inst5.IN0
+
+
+|divisor|unidadedivisao:inst9|Subtrador:delbeim
+A <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+B => inst2.IN0
+B => inst4.IN0
+B => inst7.IN1
+Y => inst2.IN1
+Y => inst4.IN1
+Y => inst6.IN1
+X => inst.IN0
+X => inst6.IN0
+S <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|divisor|unidadedivisao:inst8
+b0 <= Subtrador:delbeim.A
+bi => Subtrador:delbeim.B
+y => Subtrador:delbeim.Y
+x => Subtrador:delbeim.X
+x => inst5.IN1
+d <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+os => inst3.IN0
+os => inst5.IN0
+
+
+|divisor|unidadedivisao:inst8|Subtrador:delbeim
+A <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+B => inst2.IN0
+B => inst4.IN0
+B => inst7.IN1
+Y => inst2.IN1
+Y => inst4.IN1
+Y => inst6.IN1
+X => inst.IN0
+X => inst6.IN0
+S <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|divisor|unidadedivisao:inst6
+b0 <= Subtrador:delbeim.A
+bi => Subtrador:delbeim.B
+y => Subtrador:delbeim.Y
+x => Subtrador:delbeim.X
+x => inst5.IN1
+d <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+os => inst3.IN0
+os => inst5.IN0
+
+
+|divisor|unidadedivisao:inst6|Subtrador:delbeim
+A <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+B => inst2.IN0
+B => inst4.IN0
+B => inst7.IN1
+Y => inst2.IN1
+Y => inst4.IN1
+Y => inst6.IN1
+X => inst.IN0
+X => inst6.IN0
+S <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|divisor|unidadedivisao:inst14
+b0 <= Subtrador:delbeim.A
+bi => Subtrador:delbeim.B
+y => Subtrador:delbeim.Y
+x => Subtrador:delbeim.X
+x => inst5.IN1
+d <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+os => inst3.IN0
+os => inst5.IN0
+
+
+|divisor|unidadedivisao:inst14|Subtrador:delbeim
+A <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+B => inst2.IN0
+B => inst4.IN0
+B => inst7.IN1
+Y => inst2.IN1
+Y => inst4.IN1
+Y => inst6.IN1
+X => inst.IN0
+X => inst6.IN0
+S <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|divisor|unidadedivisao:inst13
+b0 <= Subtrador:delbeim.A
+bi => Subtrador:delbeim.B
+y => Subtrador:delbeim.Y
+x => Subtrador:delbeim.X
+x => inst5.IN1
+d <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+os => inst3.IN0
+os => inst5.IN0
+
+
+|divisor|unidadedivisao:inst13|Subtrador:delbeim
+A <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+B => inst2.IN0
+B => inst4.IN0
+B => inst7.IN1
+Y => inst2.IN1
+Y => inst4.IN1
+Y => inst6.IN1
+X => inst.IN0
+X => inst6.IN0
+S <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|divisor|unidadedivisao:inst12
+b0 <= Subtrador:delbeim.A
+bi => Subtrador:delbeim.B
+y => Subtrador:delbeim.Y
+x => Subtrador:delbeim.X
+x => inst5.IN1
+d <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+os => inst3.IN0
+os => inst5.IN0
+
+
+|divisor|unidadedivisao:inst12|Subtrador:delbeim
+A <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+B => inst2.IN0
+B => inst4.IN0
+B => inst7.IN1
+Y => inst2.IN1
+Y => inst4.IN1
+Y => inst6.IN1
+X => inst.IN0
+X => inst6.IN0
+S <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|divisor|unidadedivisao:inst11
+b0 <= Subtrador:delbeim.A
+bi => Subtrador:delbeim.B
+y => Subtrador:delbeim.Y
+x => Subtrador:delbeim.X
+x => inst5.IN1
+d <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+os => inst3.IN0
+os => inst5.IN0
+
+
+|divisor|unidadedivisao:inst11|Subtrador:delbeim
+A <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+B => inst2.IN0
+B => inst4.IN0
+B => inst7.IN1
+Y => inst2.IN1
+Y => inst4.IN1
+Y => inst6.IN1
+X => inst.IN0
+X => inst6.IN0
+S <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|divisor|unidadedivisao:inst18
+b0 <= Subtrador:delbeim.A
+bi => Subtrador:delbeim.B
+y => Subtrador:delbeim.Y
+x => Subtrador:delbeim.X
+x => inst5.IN1
+d <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+os => inst3.IN0
+os => inst5.IN0
+
+
+|divisor|unidadedivisao:inst18|Subtrador:delbeim
+A <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+B => inst2.IN0
+B => inst4.IN0
+B => inst7.IN1
+Y => inst2.IN1
+Y => inst4.IN1
+Y => inst6.IN1
+X => inst.IN0
+X => inst6.IN0
+S <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|divisor|unidadedivisao:inst17
+b0 <= Subtrador:delbeim.A
+bi => Subtrador:delbeim.B
+y => Subtrador:delbeim.Y
+x => Subtrador:delbeim.X
+x => inst5.IN1
+d <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+os => inst3.IN0
+os => inst5.IN0
+
+
+|divisor|unidadedivisao:inst17|Subtrador:delbeim
+A <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+B => inst2.IN0
+B => inst4.IN0
+B => inst7.IN1
+Y => inst2.IN1
+Y => inst4.IN1
+Y => inst6.IN1
+X => inst.IN0
+X => inst6.IN0
+S <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|divisor|unidadedivisao:inst16
+b0 <= Subtrador:delbeim.A
+bi => Subtrador:delbeim.B
+y => Subtrador:delbeim.Y
+x => Subtrador:delbeim.X
+x => inst5.IN1
+d <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+os => inst3.IN0
+os => inst5.IN0
+
+
+|divisor|unidadedivisao:inst16|Subtrador:delbeim
+A <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+B => inst2.IN0
+B => inst4.IN0
+B => inst7.IN1
+Y => inst2.IN1
+Y => inst4.IN1
+Y => inst6.IN1
+X => inst.IN0
+X => inst6.IN0
+S <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|divisor|unidadedivisao:inst15
+b0 <= Subtrador:delbeim.A
+bi => Subtrador:delbeim.B
+y => Subtrador:delbeim.Y
+x => Subtrador:delbeim.X
+x => inst5.IN1
+d <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+os => inst3.IN0
+os => inst5.IN0
+
+
+|divisor|unidadedivisao:inst15|Subtrador:delbeim
+A <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+B => inst2.IN0
+B => inst4.IN0
+B => inst7.IN1
+Y => inst2.IN1
+Y => inst4.IN1
+Y => inst6.IN1
+X => inst.IN0
+X => inst6.IN0
+S <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|divisor|7segmentos:iuahughhh
+SD <= 52.DB_MAX_OUTPUT_PORT_TYPE
+D[0] => 25.IN3
+D[0] => 7.IN0
+D[0] => 16.IN3
+D[0] => 10.IN3
+D[0] => 20.IN3
+D[0] => 23.IN3
+D[0] => 14.IN3
+D[0] => 18.IN3
+D[0] => 12.IN3
+D[1] => 25.IN2
+D[1] => 19.IN2
+D[1] => 16.IN2
+D[1] => 5.IN0
+D[1] => 20.IN2
+D[1] => 24.IN2
+D[1] => 15.IN2
+D[1] => 11.IN2
+D[1] => 12.IN2
+D[2] => 25.IN1
+D[2] => 3.IN0
+D[2] => 16.IN1
+D[2] => 13.IN1
+D[2] => 23.IN1
+D[2] => 24.IN1
+D[2] => 22.IN1
+D[2] => 15.IN1
+D[2] => 14.IN1
+D[3] => 25.IN0
+D[3] => 19.IN0
+D[3] => 2.IN0
+D[3] => 20.IN0
+D[3] => 23.IN0
+D[3] => 24.IN0
+D[3] => 22.IN0
+D[3] => 18.IN0
+SA <= 53.DB_MAX_OUTPUT_PORT_TYPE
+SB <= 50.DB_MAX_OUTPUT_PORT_TYPE
+SC <= 54.DB_MAX_OUTPUT_PORT_TYPE
+SE <= 49.DB_MAX_OUTPUT_PORT_TYPE
+SF <= 51.DB_MAX_OUTPUT_PORT_TYPE
+SG <= 55.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|divisor|7segmentos:chorei
+SD <= 52.DB_MAX_OUTPUT_PORT_TYPE
+D[0] => 25.IN3
+D[0] => 7.IN0
+D[0] => 16.IN3
+D[0] => 10.IN3
+D[0] => 20.IN3
+D[0] => 23.IN3
+D[0] => 14.IN3
+D[0] => 18.IN3
+D[0] => 12.IN3
+D[1] => 25.IN2
+D[1] => 19.IN2
+D[1] => 16.IN2
+D[1] => 5.IN0
+D[1] => 20.IN2
+D[1] => 24.IN2
+D[1] => 15.IN2
+D[1] => 11.IN2
+D[1] => 12.IN2
+D[2] => 25.IN1
+D[2] => 3.IN0
+D[2] => 16.IN1
+D[2] => 13.IN1
+D[2] => 23.IN1
+D[2] => 24.IN1
+D[2] => 22.IN1
+D[2] => 15.IN1
+D[2] => 14.IN1
+D[3] => 25.IN0
+D[3] => 19.IN0
+D[3] => 2.IN0
+D[3] => 20.IN0
+D[3] => 23.IN0
+D[3] => 24.IN0
+D[3] => 22.IN0
+D[3] => 18.IN0
+SA <= 53.DB_MAX_OUTPUT_PORT_TYPE
+SB <= 50.DB_MAX_OUTPUT_PORT_TYPE
+SC <= 54.DB_MAX_OUTPUT_PORT_TYPE
+SE <= 49.DB_MAX_OUTPUT_PORT_TYPE
+SF <= 51.DB_MAX_OUTPUT_PORT_TYPE
+SG <= 55.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|divisor|7segmentos:adssadasdasd
+SD <= 52.DB_MAX_OUTPUT_PORT_TYPE
+D[0] => 25.IN3
+D[0] => 7.IN0
+D[0] => 16.IN3
+D[0] => 10.IN3
+D[0] => 20.IN3
+D[0] => 23.IN3
+D[0] => 14.IN3
+D[0] => 18.IN3
+D[0] => 12.IN3
+D[1] => 25.IN2
+D[1] => 19.IN2
+D[1] => 16.IN2
+D[1] => 5.IN0
+D[1] => 20.IN2
+D[1] => 24.IN2
+D[1] => 15.IN2
+D[1] => 11.IN2
+D[1] => 12.IN2
+D[2] => 25.IN1
+D[2] => 3.IN0
+D[2] => 16.IN1
+D[2] => 13.IN1
+D[2] => 23.IN1
+D[2] => 24.IN1
+D[2] => 22.IN1
+D[2] => 15.IN1
+D[2] => 14.IN1
+D[3] => 25.IN0
+D[3] => 19.IN0
+D[3] => 2.IN0
+D[3] => 20.IN0
+D[3] => 23.IN0
+D[3] => 24.IN0
+D[3] => 22.IN0
+D[3] => 18.IN0
+SA <= 53.DB_MAX_OUTPUT_PORT_TYPE
+SB <= 50.DB_MAX_OUTPUT_PORT_TYPE
+SC <= 54.DB_MAX_OUTPUT_PORT_TYPE
+SE <= 49.DB_MAX_OUTPUT_PORT_TYPE
+SF <= 51.DB_MAX_OUTPUT_PORT_TYPE
+SG <= 55.DB_MAX_OUTPUT_PORT_TYPE
+
+

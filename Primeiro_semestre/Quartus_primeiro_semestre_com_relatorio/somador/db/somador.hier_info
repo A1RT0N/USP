@@ -1,0 +1,13 @@
+|somador
+pin_name1 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+Cin => inst.IN0
+Cin => inst12.IN1
+A1 => inst10.IN0
+A1 => inst2.IN0
+A1 => inst11.IN1
+A2 => inst10.IN1
+A2 => inst2.IN1
+A2 => inst11.IN0
+pin_name3 <= inst13.DB_MAX_OUTPUT_PORT_TYPE
+
+

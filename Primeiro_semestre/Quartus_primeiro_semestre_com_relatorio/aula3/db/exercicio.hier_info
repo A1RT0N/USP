@@ -1,0 +1,18 @@
+|exercicio
+A <= or1.DB_MAX_OUTPUT_PORT_TYPE
+S1 => not7.IN0
+S1 => end1.IN1
+S1 => end6.IN1
+S1 => end3.IN0
+S1 => not3.IN0
+S0 => not6.IN0
+S0 => not1.IN0
+S0 => not2.IN0
+S2 => end4.IN1
+S2 => end3.IN1
+S2 => not4.IN0
+V1 <= end6.DB_MAX_OUTPUT_PORT_TYPE
+V2 <= end7.DB_MAX_OUTPUT_PORT_TYPE
+V3 <= end5.DB_MAX_OUTPUT_PORT_TYPE
+
+

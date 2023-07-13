@@ -1,0 +1,15 @@
+|exercicio3
+CD <= inst15.DB_MAX_OUTPUT_PORT_TYPE
+D => inst1.IN0
+D => inst5.IN0
+D => inst4.IN1
+E => inst.IN0
+E => inst3.IN0
+E => inst5.IN1
+F => inst6.IN2
+F => inst5.IN2
+F => inst2.IN0
+CF <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+CE <= inst16.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,21 @@
+Nesse projeto, o sensor SW0 corresponde a S0, o sensor SW1 corresponde a S1 e o sensor SW2 corresponde a S2. O alarme A corresponde a LEDR0, a válvula V1 corresponde a LEDR1,
+a válvula V2 corresponde a LEDR2, a válvula V3 corresponde a LEDRO3. Quando todos os sensores estão desligados, LEDR3 acende. Quando o sensor SW0 está ligado, nenhum led acende,
+quando o sensor SW1 está ligado, o LEDR0 acende. Quand o sensor SW2 está ligado, o LEDR0 acende. Quando o sensor SW0 e SW1 estão ligados, LEDR1 acende.
+Quando os sensores SW0 e SW2 estão ligados, o LEDR0 acende. Quando o sensor SW1 e SW2 estão ativados, LEDR0 acendem. Quando SW0, SW1 e SW2 acionam, LEDR1 e LEDR2
+acendem. 
+
+No caso desse projeto, sempre que o alarme tiver ativado, todos os outros sensores irão estar desativados.
+Placa: Cyclone V: 5CEBA4F23C7
+
+Placas: not1,not2, not3, not4, not5, not6, not7, and1, and2, and3, and4, and5, and6, and7, or1, or2
+A = alarme
+V1 = V1
+V2 = V2
+V3 = V3
+
+
+Expressão booleana da saída do Alarme:
+V1 = S1.!((!(S0)+!(S1)).S2+ !(S0).S1)
+V2 = !((!(S0)+!(S1)).S2+ !(S0).S1).(S2.S1)
+V3 = !((!(S0)+!(S1)).S2+ !(S0).S1).!(S1.S2.S0)
+A = (!(S0)+!(S1)).S2+ !(S0).S1

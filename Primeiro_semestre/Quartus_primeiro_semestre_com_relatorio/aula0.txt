@@ -1,0 +1,1 @@
+Nesse projeto há duas portas de entrada SW0 e SW1 do hardware Cyclone IV: EP4CE115F29C7com uma porta AND. Led fica vermelho em LEDR0

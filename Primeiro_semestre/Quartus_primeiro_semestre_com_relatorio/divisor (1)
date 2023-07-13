@@ -1,0 +1,57 @@
+Placa:
+DE0-CV:
+Cyclone V: 5CEBA4F23C7
+
+Entradas:
+SW0
+SW1
+SW2
+SW3
+SW4
+SW5
+SW6
+SW7
+SW8
+SW9
+
+Saídas:
+HEX0
+HEX1
+HEX2
+HEX3
+HEX4
+HEX5
+HEX6
+HEX10
+HWX11
+HEX12
+HEX13
+HEX14
+HEX15
+HEX16
+HEX20
+HEX21
+HEX22
+HEX23
+HEX24
+HEX25
+HEX26
+HEX40
+HEX41
+HEX42
+HEX43
+HEX44
+HEX45
+HEX46
+LEDR0
+LEDR4
+LEDR7
+
+Nesse projeto, foi feito um divisor de 4 bits.
+Foi necessária 4 unidades de divisão a cada linha que subtrai o divisor do dividendo e colocar 0 ou 1 no divosor a depender do
+resultado. 
+Para a construção do circuito, foram utilizados os blocos da aula4 e o da aula7
+ para ajudar no circuito para dividir dois valores binários.
+Além disso, com o auxílio do bloco da aula7, foi constrído um outro bloco que se utiliza do subtrator completo para 
+auxiliar ao longo do circuito.
+Para determinar o sinal do resultado somente foi feito um xor entre cada sinal.

@@ -1,0 +1,227 @@
+|comparador
+aigualb <= inst22.DB_MAX_OUTPUT_PORT_TYPE
+A0 => inst21.IN0
+A0 => unidcomparador:inst6.A
+A0 => 7segmentos:asjhdvadjsa.D[0]
+A2 => inst21.IN1
+A2 => unidcomparador:inst4.A
+A2 => 7segmentos:asjhdvadjsa.D[2]
+A1 => inst21.IN2
+A1 => unidcomparador:inst5.A
+A1 => 7segmentos:asjhdvadjsa.D[1]
+A3 => inst21.IN3
+A3 => unidcomparador:dasasdasd.A
+A3 => 7segmentos:asjhdvadjsa.D[3]
+B1 => inst21.IN4
+B1 => unidcomparador:inst5.B
+B1 => 7segmentos:olasolads.D[1]
+B0 => inst21.IN5
+B0 => unidcomparador:inst6.B
+B0 => 7segmentos:olasolads.D[0]
+B2 => inst21.IN6
+B2 => unidcomparador:inst4.B
+B2 => 7segmentos:olasolads.D[2]
+B3 => inst21.IN7
+B3 => unidcomparador:dasasdasd.B
+B3 => 7segmentos:olasolads.D[3]
+sinalX => inst24.IN0
+sinalX => MUX:inst.c
+sinalX => MUX:inst19.c
+sinalX => sinalhexX1.DATAIN
+sinalY => inst24.IN1
+sinalY => MUX:inst20.c
+sinalY => sinalhexY2.DATAIN
+aresmaior <= inst26.DB_MAX_OUTPUT_PORT_TYPE
+bresmaior <= inst29.DB_MAX_OUTPUT_PORT_TYPE
+b8 <= 7segmentos:olasolads.SA
+b9 <= 7segmentos:olasolads.SB
+b10 <= 7segmentos:olasolads.SC
+b11 <= 7segmentos:olasolads.SD
+b12 <= 7segmentos:olasolads.SE
+b13 <= 7segmentos:olasolads.SF
+b14 <= 7segmentos:olasolads.SG
+a17 <= 7segmentos:asjhdvadjsa.SG
+a16 <= 7segmentos:asjhdvadjsa.SF
+a15 <= 7segmentos:asjhdvadjsa.SE
+a14 <= 7segmentos:asjhdvadjsa.SD
+a13 <= 7segmentos:asjhdvadjsa.SC
+a12 <= 7segmentos:asjhdvadjsa.SB
+a10 <= 7segmentos:asjhdvadjsa.SA
+sinalhexX1 <= sinalX.DB_MAX_OUTPUT_PORT_TYPE
+sinalhexY2 <= sinalY.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|comparador|unidcomparador:inst6
+Amaior <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+B => inst3.IN0
+B => dsadiasbasd.IN0
+B => fgajfjhfjhfj.IN0
+A => colesimons.IN0
+A => inst.IN0
+A => fgajfjhfjhfj.IN1
+AigualBin => inst1.IN1
+AigualBin => inst2.IN1
+AigualBin => inst4.IN1
+Bmaior <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+AigualBout <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|comparador|unidcomparador:inst5
+Amaior <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+B => inst3.IN0
+B => dsadiasbasd.IN0
+B => fgajfjhfjhfj.IN0
+A => colesimons.IN0
+A => inst.IN0
+A => fgajfjhfjhfj.IN1
+AigualBin => inst1.IN1
+AigualBin => inst2.IN1
+AigualBin => inst4.IN1
+Bmaior <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+AigualBout <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|comparador|unidcomparador:inst4
+Amaior <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+B => inst3.IN0
+B => dsadiasbasd.IN0
+B => fgajfjhfjhfj.IN0
+A => colesimons.IN0
+A => inst.IN0
+A => fgajfjhfjhfj.IN1
+AigualBin => inst1.IN1
+AigualBin => inst2.IN1
+AigualBin => inst4.IN1
+Bmaior <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+AigualBout <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|comparador|unidcomparador:dasasdasd
+Amaior <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+B => inst3.IN0
+B => dsadiasbasd.IN0
+B => fgajfjhfjhfj.IN0
+A => colesimons.IN0
+A => inst.IN0
+A => fgajfjhfjhfj.IN1
+AigualBin => inst1.IN1
+AigualBin => inst2.IN1
+AigualBin => inst4.IN1
+Bmaior <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+AigualBout <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|comparador|MUX:inst20
+s <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+y => inst1.IN0
+c => inst1.IN1
+c => inst2.IN0
+x => inst.IN0
+
+
+|comparador|MUX:inst
+s <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+y => inst1.IN0
+c => inst1.IN1
+c => inst2.IN0
+x => inst.IN0
+
+
+|comparador|MUX:inst19
+s <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+y => inst1.IN0
+c => inst1.IN1
+c => inst2.IN0
+x => inst.IN0
+
+
+|comparador|7segmentos:olasolads
+SD <= 52.DB_MAX_OUTPUT_PORT_TYPE
+D[0] => 25.IN3
+D[0] => 7.IN0
+D[0] => 16.IN3
+D[0] => 10.IN3
+D[0] => 20.IN3
+D[0] => 23.IN3
+D[0] => 14.IN3
+D[0] => 18.IN3
+D[0] => 12.IN3
+D[1] => 25.IN2
+D[1] => 19.IN2
+D[1] => 16.IN2
+D[1] => 5.IN0
+D[1] => 20.IN2
+D[1] => 24.IN2
+D[1] => 15.IN2
+D[1] => 11.IN2
+D[1] => 12.IN2
+D[2] => 25.IN1
+D[2] => 3.IN0
+D[2] => 16.IN1
+D[2] => 13.IN1
+D[2] => 23.IN1
+D[2] => 24.IN1
+D[2] => 22.IN1
+D[2] => 15.IN1
+D[2] => 14.IN1
+D[3] => 25.IN0
+D[3] => 19.IN0
+D[3] => 2.IN0
+D[3] => 20.IN0
+D[3] => 23.IN0
+D[3] => 24.IN0
+D[3] => 22.IN0
+D[3] => 18.IN0
+SA <= 53.DB_MAX_OUTPUT_PORT_TYPE
+SB <= 50.DB_MAX_OUTPUT_PORT_TYPE
+SC <= 54.DB_MAX_OUTPUT_PORT_TYPE
+SE <= 49.DB_MAX_OUTPUT_PORT_TYPE
+SF <= 51.DB_MAX_OUTPUT_PORT_TYPE
+SG <= 55.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|comparador|7segmentos:asjhdvadjsa
+SD <= 52.DB_MAX_OUTPUT_PORT_TYPE
+D[0] => 25.IN3
+D[0] => 7.IN0
+D[0] => 16.IN3
+D[0] => 10.IN3
+D[0] => 20.IN3
+D[0] => 23.IN3
+D[0] => 14.IN3
+D[0] => 18.IN3
+D[0] => 12.IN3
+D[1] => 25.IN2
+D[1] => 19.IN2
+D[1] => 16.IN2
+D[1] => 5.IN0
+D[1] => 20.IN2
+D[1] => 24.IN2
+D[1] => 15.IN2
+D[1] => 11.IN2
+D[1] => 12.IN2
+D[2] => 25.IN1
+D[2] => 3.IN0
+D[2] => 16.IN1
+D[2] => 13.IN1
+D[2] => 23.IN1
+D[2] => 24.IN1
+D[2] => 22.IN1
+D[2] => 15.IN1
+D[2] => 14.IN1
+D[3] => 25.IN0
+D[3] => 19.IN0
+D[3] => 2.IN0
+D[3] => 20.IN0
+D[3] => 23.IN0
+D[3] => 24.IN0
+D[3] => 22.IN0
+D[3] => 18.IN0
+SA <= 53.DB_MAX_OUTPUT_PORT_TYPE
+SB <= 50.DB_MAX_OUTPUT_PORT_TYPE
+SC <= 54.DB_MAX_OUTPUT_PORT_TYPE
+SE <= 49.DB_MAX_OUTPUT_PORT_TYPE
+SF <= 51.DB_MAX_OUTPUT_PORT_TYPE
+SG <= 55.DB_MAX_OUTPUT_PORT_TYPE
+
+

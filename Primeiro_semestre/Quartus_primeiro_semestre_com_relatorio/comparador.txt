@@ -1,0 +1,44 @@
+Placa:
+DE0-CV:
+Cyclone V: 5CEBA4F23C7
+
+Entradas:
+SW0
+SW1
+SW2
+SW3
+SW4
+SW5
+SW6
+SW7
+SW8
+SW9
+
+Saídas:
+HEX10
+HWX11
+HEX12
+HEX13
+HEX14
+HEX15
+HEX16
+HEX26
+HEX40
+HEX41
+HEX42
+HEX43
+HEX44
+HEX45
+HEX46
+HEX56
+LEDR1
+LEDR5
+LEDR8
+
+Nesse projeto, foi feito comparador de 4 bits.
+Foi necessária 4 unidades de comparação, que, resumidamente é um MUX de 4x1.
+Para a construção do circuito, foram utilizados um MUX para determinar quando a ou b é maior ou igual a depende do sinal de cada um.
+Foi usado tbm um somador de 1 bit, uma unidade de compração e o display de sete segmentos.
+As unidades de comparação estavam em cadeia para analisar o bmaior ou a maior. Para analisar juntamente com o sinal, foi usado uma lógica utilizando
+o MUX para inverter caso a caso a depender do sinal.
+No início, como no final, as respostas foram jogadas no display.

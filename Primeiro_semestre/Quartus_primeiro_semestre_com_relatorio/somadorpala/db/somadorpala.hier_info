@@ -1,0 +1,167 @@
+|somadorpala
+pin_name1 <= exercicio:inst7.SA
+H => somador:inst2.A2
+G => somador:inst2.A1
+F => somador:inst3.A2
+E => somador:inst3.A1
+D => somador:inst5.A2
+C => somador:inst5.A1
+A => somador:inst4.A2
+B => somador:inst4.A1
+pin_name2 <= exercicio:inst7.SB
+pin_name3 <= exercicio:inst7.SC
+pin_name4 <= exercicio:inst7.SD
+pin_name5 <= exercicio:inst7.SE
+pin_name6 <= exercicio:inst7.SF
+pin_name7 <= exercicio:inst7.SG
+pin_name8 <= exercicio:inst.SA
+pin_name9 <= exercicio:inst.SB
+pin_name10 <= exercicio:inst.SC
+pin_name11 <= exercicio:inst.SD
+pin_name12 <= exercicio:inst.SE
+pin_name13 <= exercicio:inst.SF
+pin_name14 <= exercicio:inst.SG
+
+
+|somadorpala|exercicio:inst7
+SD <= 52.DB_MAX_OUTPUT_PORT_TYPE
+D[0] => 25.IN3
+D[0] => 7.IN0
+D[0] => 16.IN3
+D[0] => 10.IN3
+D[0] => 20.IN3
+D[0] => 23.IN3
+D[0] => 14.IN3
+D[0] => 18.IN3
+D[0] => 12.IN3
+D[1] => 25.IN2
+D[1] => 19.IN2
+D[1] => 16.IN2
+D[1] => 5.IN0
+D[1] => 20.IN2
+D[1] => 24.IN2
+D[1] => 15.IN2
+D[1] => 11.IN2
+D[1] => 12.IN2
+D[2] => 25.IN1
+D[2] => 3.IN0
+D[2] => 16.IN1
+D[2] => 13.IN1
+D[2] => 23.IN1
+D[2] => 24.IN1
+D[2] => 22.IN1
+D[2] => 15.IN1
+D[2] => 14.IN1
+D[3] => 25.IN0
+D[3] => 19.IN0
+D[3] => 2.IN0
+D[3] => 20.IN0
+D[3] => 23.IN0
+D[3] => 24.IN0
+D[3] => 22.IN0
+D[3] => 18.IN0
+SA <= 53.DB_MAX_OUTPUT_PORT_TYPE
+SB <= 50.DB_MAX_OUTPUT_PORT_TYPE
+SC <= 54.DB_MAX_OUTPUT_PORT_TYPE
+SE <= 49.DB_MAX_OUTPUT_PORT_TYPE
+SF <= 51.DB_MAX_OUTPUT_PORT_TYPE
+SG <= 55.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somadorpala|somador:inst2
+pin_name1 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+Cin => inst.IN0
+Cin => inst12.IN1
+A1 => inst10.IN0
+A1 => inst2.IN0
+A1 => inst11.IN1
+A2 => inst10.IN1
+A2 => inst2.IN1
+A2 => inst11.IN0
+pin_name3 <= inst13.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somadorpala|somador:inst3
+pin_name1 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+Cin => inst.IN0
+Cin => inst12.IN1
+A1 => inst10.IN0
+A1 => inst2.IN0
+A1 => inst11.IN1
+A2 => inst10.IN1
+A2 => inst2.IN1
+A2 => inst11.IN0
+pin_name3 <= inst13.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somadorpala|somador:inst5
+pin_name1 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+Cin => inst.IN0
+Cin => inst12.IN1
+A1 => inst10.IN0
+A1 => inst2.IN0
+A1 => inst11.IN1
+A2 => inst10.IN1
+A2 => inst2.IN1
+A2 => inst11.IN0
+pin_name3 <= inst13.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somadorpala|somador:inst4
+pin_name1 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+Cin => inst.IN0
+Cin => inst12.IN1
+A1 => inst10.IN0
+A1 => inst2.IN0
+A1 => inst11.IN1
+A2 => inst10.IN1
+A2 => inst2.IN1
+A2 => inst11.IN0
+pin_name3 <= inst13.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somadorpala|exercicio:inst
+SD <= 52.DB_MAX_OUTPUT_PORT_TYPE
+D[0] => 25.IN3
+D[0] => 7.IN0
+D[0] => 16.IN3
+D[0] => 10.IN3
+D[0] => 20.IN3
+D[0] => 23.IN3
+D[0] => 14.IN3
+D[0] => 18.IN3
+D[0] => 12.IN3
+D[1] => 25.IN2
+D[1] => 19.IN2
+D[1] => 16.IN2
+D[1] => 5.IN0
+D[1] => 20.IN2
+D[1] => 24.IN2
+D[1] => 15.IN2
+D[1] => 11.IN2
+D[1] => 12.IN2
+D[2] => 25.IN1
+D[2] => 3.IN0
+D[2] => 16.IN1
+D[2] => 13.IN1
+D[2] => 23.IN1
+D[2] => 24.IN1
+D[2] => 22.IN1
+D[2] => 15.IN1
+D[2] => 14.IN1
+D[3] => 25.IN0
+D[3] => 19.IN0
+D[3] => 2.IN0
+D[3] => 20.IN0
+D[3] => 23.IN0
+D[3] => 24.IN0
+D[3] => 22.IN0
+D[3] => 18.IN0
+SA <= 53.DB_MAX_OUTPUT_PORT_TYPE
+SB <= 50.DB_MAX_OUTPUT_PORT_TYPE
+SC <= 54.DB_MAX_OUTPUT_PORT_TYPE
+SE <= 49.DB_MAX_OUTPUT_PORT_TYPE
+SF <= 51.DB_MAX_OUTPUT_PORT_TYPE
+SG <= 55.DB_MAX_OUTPUT_PORT_TYPE
+
+

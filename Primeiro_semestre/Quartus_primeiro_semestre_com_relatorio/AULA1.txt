@@ -1,0 +1,9 @@
+(Placa Pequena) DE0-CV:
+Cyclone V: 5CEBA4F23C7
+Expressão Lógica  Q = (A.B) + ((B + C).(B.C))
+Simplificação Q = AB + BC
+Input A = PIN_U13 (sw0)
+Input B = PIN_V13 (sw1)
+Input C = PIN_T13 (sw2)
+Output f = PIN_AA2 (LEDR0) - NORMAL
+Output g = PIN_W2 (LEDR2) - SIMPLIFICADA

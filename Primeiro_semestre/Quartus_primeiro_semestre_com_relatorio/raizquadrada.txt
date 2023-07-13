@@ -1,0 +1,59 @@
+Placa:
+DE0-CV:
+Cyclone V: 5CEBA4F23C7
+
+Entradas:
+SW0
+SW1
+SW2
+SW3
+SW4
+SW5
+SW6
+SW7
+
+
+Saídas:
+HEX0
+HEX1
+HEX2
+HEX3
+HEX4
+HEX5
+HEX6
+HEX10
+HWX11
+HEX12
+HEX13
+HEX14
+HEX15
+HEX16
+HEX20
+HEX21
+HEX22
+HEX23
+HEX24
+HEX25
+HEX26
+HEX40
+HEX41
+HEX42
+HEX43
+HEX44
+HEX45
+HEX46
+HEX50
+HEX51
+HEX52
+HEX53
+HEX54
+HEX55
+HEX56
+
+
+Nesse projeto, foi feito um circuito que representa a raiz quadrada
+Foi necessária 18 unidades de divisão a cada linha que subtrai o divisor do dividendo e colocar 0 ou 1 no divosor a depender do
+resultado. Esse resultado é transmitido até chegar no último carry da linha das unidades de divisão, o OS, e esse é usado como bit de controle do
+multilexador que está dentro da unidade de divisão 
+Para a construção do circuito, foram utilizados os blocos da aula4 e o subtrador para ajudar no circuito para dividir dois valores binários.
+Foi usado três not que estão na segunda, terceira e quarta linha pra propagar o sinal do os

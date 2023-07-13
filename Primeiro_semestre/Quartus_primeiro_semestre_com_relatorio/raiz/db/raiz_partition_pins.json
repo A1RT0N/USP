@@ -1,0 +1,177 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "lsr0",
+					"strict" : false
+				},
+				{
+					"name" : "lsr1",
+					"strict" : false
+				},
+				{
+					"name" : "lsr2",
+					"strict" : false
+				},
+				{
+					"name" : "lsr3",
+					"strict" : false
+				},
+				{
+					"name" : "lsr4",
+					"strict" : false
+				},
+				{
+					"name" : "lsr5",
+					"strict" : false
+				},
+				{
+					"name" : "lsr6",
+					"strict" : false
+				},
+				{
+					"name" : "msr0",
+					"strict" : false
+				},
+				{
+					"name" : "msr3",
+					"strict" : false
+				},
+				{
+					"name" : "msr7",
+					"strict" : false
+				},
+				{
+					"name" : "msr8",
+					"strict" : false
+				},
+				{
+					"name" : "msr9",
+					"strict" : false
+				},
+				{
+					"name" : "msr10",
+					"strict" : false
+				},
+				{
+					"name" : "xr0",
+					"strict" : false
+				},
+				{
+					"name" : "xr1",
+					"strict" : false
+				},
+				{
+					"name" : "xr2",
+					"strict" : false
+				},
+				{
+					"name" : "xr3",
+					"strict" : false
+				},
+				{
+					"name" : "xr4",
+					"strict" : false
+				},
+				{
+					"name" : "xr5",
+					"strict" : false
+				},
+				{
+					"name" : "xr6",
+					"strict" : false
+				},
+				{
+					"name" : "xr7",
+					"strict" : false
+				},
+				{
+					"name" : "xr8",
+					"strict" : false
+				},
+				{
+					"name" : "xr9",
+					"strict" : false
+				},
+				{
+					"name" : "xr10",
+					"strict" : false
+				},
+				{
+					"name" : "xr11",
+					"strict" : false
+				},
+				{
+					"name" : "xr12",
+					"strict" : false
+				},
+				{
+					"name" : "xr13",
+					"strict" : false
+				},
+				{
+					"name" : "q0",
+					"strict" : false
+				},
+				{
+					"name" : "q1",
+					"strict" : false
+				},
+				{
+					"name" : "q2",
+					"strict" : false
+				},
+				{
+					"name" : "q3",
+					"strict" : false
+				},
+				{
+					"name" : "q4",
+					"strict" : false
+				},
+				{
+					"name" : "q5",
+					"strict" : false
+				},
+				{
+					"name" : "q6",
+					"strict" : false
+				},
+				{
+					"name" : "x0",
+					"strict" : false
+				},
+				{
+					"name" : "x6",
+					"strict" : false
+				},
+				{
+					"name" : "x7",
+					"strict" : false
+				},
+				{
+					"name" : "x4",
+					"strict" : false
+				},
+				{
+					"name" : "x5",
+					"strict" : false
+				},
+				{
+					"name" : "x2",
+					"strict" : false
+				},
+				{
+					"name" : "x3",
+					"strict" : false
+				},
+				{
+					"name" : "x1",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

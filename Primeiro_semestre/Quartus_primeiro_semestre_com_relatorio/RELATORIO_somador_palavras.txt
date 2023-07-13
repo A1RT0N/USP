@@ -1,0 +1,33 @@
+Placa: (Placa Pequena) DE0-CV:
+Cyclone V: 5CEBA4F23C7
+Entrada SW0 - A
+Entrada SW1 - E
+Entrada SW2 - B 
+Entrada SW3 - F
+Entrada SW4 - C
+Entrada SW5 - G
+Entrada SW6 - D
+Entrada SW7 - H
+
+Saídas:
+
+HEX0
+HEX1
+HEX2
+HEX3
+HEX4
+HEX5
+HEX6
+HEX7
+HEX8
+HEX9
+HEX10
+HEX11
+HEX12
+HEX13
+
+Nesse projeto, foi utilizado quatro blocos de somadores (aula 5) e dois blocos do display de sete segmentos (aula 4).
+Cada resultado da soma de cada somador (s1,s2,s3,s4) era conectado com sua respectiva entrada em um bloco do 
+display de sete segmentos (D[0], D[1], D[2], D[3], D[4]). O carry out de cada somador era conectado no Cin
+dos demais somadores. Assim, o Cout do último somador era conectado com o D[0] do segundo display.
+Os outros inputs do segundo display eram conectados comectados na terra (input 0). 

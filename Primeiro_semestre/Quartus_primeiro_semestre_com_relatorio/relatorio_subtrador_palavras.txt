@@ -1,0 +1,35 @@
+Placa:
+DE0-CV:
+Cyclone V: 5CEBA4F23C7
+
+Entradas:
+SW0
+SW1
+SW2
+SW3
+SW4
+SW5
+SW6
+SW7
+
+Saídas:
+HEX0
+HEX1
+HEX2
+HEX3
+HEX4
+HEX5
+HEX6
+HEX10
+HWX11
+HEX12
+HEX13
+HEX14
+HEX15
+HEX16
+
+Nesse projeto, foi utilizado quatro blocos de subtradores(aula 7) e dois blocos do display de sete segmentos (aula 4).
+Cada resultado da subtração de cada subtrador (s1,s2,s3,s4) era conectado com sua respectiva entrada em um bloco do 
+display de sete segmentos (D[0], D[1], D[2], D[3], D[4]). O borrow out de cada subtrador era conectado no borrow in
+dos demais subtradores. Assim, o borrow out do último subtrador era conectado com o D[0] do segundo display.
+Os outros inputs do segundo display eram conectados comectados na terra (input 0).

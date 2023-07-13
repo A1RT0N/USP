@@ -1,0 +1,177 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "sinalconta",
+					"strict" : false
+				},
+				{
+					"name" : "q0",
+					"strict" : false
+				},
+				{
+					"name" : "q1",
+					"strict" : false
+				},
+				{
+					"name" : "q2",
+					"strict" : false
+				},
+				{
+					"name" : "q3",
+					"strict" : false
+				},
+				{
+					"name" : "q4",
+					"strict" : false
+				},
+				{
+					"name" : "q5",
+					"strict" : false
+				},
+				{
+					"name" : "q6",
+					"strict" : false
+				},
+				{
+					"name" : "lsr0",
+					"strict" : false
+				},
+				{
+					"name" : "lsr1",
+					"strict" : false
+				},
+				{
+					"name" : "lsr2",
+					"strict" : false
+				},
+				{
+					"name" : "lsr3",
+					"strict" : false
+				},
+				{
+					"name" : "lsr4",
+					"strict" : false
+				},
+				{
+					"name" : "lsr5",
+					"strict" : false
+				},
+				{
+					"name" : "lsr6",
+					"strict" : false
+				},
+				{
+					"name" : "yr1",
+					"strict" : false
+				},
+				{
+					"name" : "yr2",
+					"strict" : false
+				},
+				{
+					"name" : "yr3",
+					"strict" : false
+				},
+				{
+					"name" : "yr4",
+					"strict" : false
+				},
+				{
+					"name" : "yr5",
+					"strict" : false
+				},
+				{
+					"name" : "yr6",
+					"strict" : false
+				},
+				{
+					"name" : "yr7",
+					"strict" : false
+				},
+				{
+					"name" : "xr0",
+					"strict" : false
+				},
+				{
+					"name" : "xr1",
+					"strict" : false
+				},
+				{
+					"name" : "xr2",
+					"strict" : false
+				},
+				{
+					"name" : "xr3",
+					"strict" : false
+				},
+				{
+					"name" : "xr4",
+					"strict" : false
+				},
+				{
+					"name" : "xr5",
+					"strict" : false
+				},
+				{
+					"name" : "xr6",
+					"strict" : false
+				},
+				{
+					"name" : "sinalxled",
+					"strict" : false
+				},
+				{
+					"name" : "sinalyled",
+					"strict" : false
+				},
+				{
+					"name" : "sinalresto",
+					"strict" : false
+				},
+				{
+					"name" : "sinalx",
+					"strict" : false
+				},
+				{
+					"name" : "sinaly",
+					"strict" : false
+				},
+				{
+					"name" : "X4",
+					"strict" : false
+				},
+				{
+					"name" : "Y4",
+					"strict" : false
+				},
+				{
+					"name" : "Y3",
+					"strict" : false
+				},
+				{
+					"name" : "Y2",
+					"strict" : false
+				},
+				{
+					"name" : "Y1",
+					"strict" : false
+				},
+				{
+					"name" : "X3",
+					"strict" : false
+				},
+				{
+					"name" : "X2",
+					"strict" : false
+				},
+				{
+					"name" : "X1",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

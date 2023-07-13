@@ -1,0 +1,54 @@
+Placa:
+DE0-CV:
+Cyclone V: 5CEBA4F23C7
+
+Entradas:
+SW0
+SW1
+SW2
+SW3
+SW4
+SW5
+SW6
+SW7
+SW8
+SW9
+
+Saídas:
+HEX0
+HEX1
+HEX2
+HEX3
+HEX4
+HEX5
+HEX6
+HEX10
+HWX11
+HEX12
+HEX13
+HEX14
+HEX15
+HEX16
+HEX20
+HEX21
+HEX22
+HEX23
+HEX24
+HEX25
+HEX26
+HEX40
+HEX41
+HEX42
+HEX43
+HEX44
+HEX45
+HEX46
+LEDR0
+LEDR4
+LEDR7
+
+Nesse projeto, foi feito um multiplicador de 4 bits. Os valores de entrada do multiplicando em binário é m0,m1,m2,m3.
+Eles entraram em um and com q0 e q1, e seus resultados foram jogados num somador completo, a exceção do p0 que foi jogado no display. 
+O carry out do último elemento do full adder foi jogado a entrada do último full adder do q2. O q2 e q3 seguiu essa mesma lógica. 
+Para os carry in dos primeiros elementos foi jogado 0 (ground) como entrada.
+Para determinar o sinal do resultado somente foi feito um xor entre cada sinal.
