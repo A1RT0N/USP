@@ -1,0 +1,47 @@
+﻿Trabalho de estrutura de dados sobre conjuntos numéricos
+
+
+Nome: Ayrton da Costa Ganem Filho - 14560190
+
+
+(Nesse trabalho, o professor Rudinei autorizou meu trabalho ser realizado sozinho, já que não houve dupla para mim na sala) 
+
+
+Para a análise das estruturas de dados, foi considerado como main o exemplo do projeto colocado no Tidia-ae. Logo, as possíveis operações são pertencimento, intersecção, união e remoção. Nesse projeto será usado a estrutura de dados AVL. Segue a explicação de seu uso em detrimento de outras estruturas de dados abaixo:
+
+
+Não seria uma boa estratégia a estrutura de pilha e fila, pois no projeto será necessário fazer remoções e inserções no meio da estrutura de dados. Não faz sentido usar as listas generalizadas, já que nesse projeto não se fala sobre subconjuntos dentro de um conjunto. Não faz sentido também falar de listas sequenciais em geral, já que os realloc() são muitos custosos computacionalmente. Como não há uma prioridade durante as operações, não faz sentido usar Heap nem encadeada, muito menos sequencial. Ademais, a busca será algo importante para realizar a união e intersecção, já que será preciso saber os elementos em comum nos dois conjuntos. Sendo assim, a estrutura AVL e outras com busca O(logN) seriam interessantes. Por fim, como a ABB não existe funções de balanceamento de árvore, ABB pode se tornar uma lista encadeada a depender das inserções, por isso que não se colocou nessa lista a ABB, e sim a AVL, que torna a árvore balanceada e, consequentemente, facilita a busca.
+
+* Lista encadeada ordenada
+1. Inserção: O(N)
+2. Remoção: O(N)
+3. Busca: O(N)
+4. União: O(n1+n2) -> Usaría-se a lógica de intercalação (percorre todo o vetor 1 mais o 2 e vai inserindo)
+5. Intersecção: O(n1+n2) 
+
+
+* Lista encadeada não ordenada
+1. Inserção: O(1) 
+2. Remoção: O(n)
+3. Busca: O(n)
+4. União: O(n1.n2) -> Deve-se, para cada elemento de 1, percorrer o vetor 2
+5. Intersecção: O(n1.n2)
+
+
+
+
+* AVL:
+1. Inserção: O(logN)
+2. Remoção: O(logN)
+3. Busca: O(log(N))
+4. União: O(N1.log(N1) + N2.log(N2))  -> Para cada inserção, é necessário percorrer o vetor e inserir o elemento na estrutura, isso para cada vetor (N1>N2)
+5. Intersecção:  O(n2.log(N1)) -> Deve-se, para cada elemento do segundo vetor, checar se ele já está presente no primeiro vetor e, se sim, inserí-lo
+
+
+Sendo assim, por mais que existem as implementações das listas encadeadas ordenadas circulares ou com nó cauda ou cabeça (essas implementações reduziriam as quantidades de if, mas não alterariam a análise assintótica do big O), a inserção, remoção e busca de uma AVL acaba sendo melhor que as de uma lista encadeada. 
+
+
+É importante ressaltar que, por mais que intersecção da lista encadeada ordenada seja melhor que a da AVL, a diferença entre essa lista e a AVL é que a lista é O(n) sendo n o maior conjunto e a da AVL é O(n2.log(n1)), sendo n1 maior, porém, como n1 é grande, quando aplicado um logaritmo nele, é reduzido drasticamente, assim, há uma redução de dados da intersecção e união da AVL, já que a inserção, remoção e busca de uma AVL é excepcionalmente melhor que a das listas.
+
+
+Portanto, será utilizado a Estrutura de Dados AVL.
