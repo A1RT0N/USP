@@ -1,0 +1,11 @@
+Na segunda prova, caiu, na primeira questão como fazer um mutiplicador de 3 
+bits na potencia de base 2 (vezes 1, vezes 2, vezes 4, vezes 8) usando 6
+flip-flos tipo 6 e 6 MUX de 4 entradas
+Na segunda questão (extremamente longa), caiu uma questão de
+transformar uma máquina de estados de Moore em circuito 
+Essa questão era longa porque você precisava montar a tabela verdade do
+circuito para 3 flip-flops e 1 saída. Aí, para saber as entradas de cada
+flip-flop, dava um mapa de Karnaugh de 5 variáveis. 
+A saída Z era fácil de montar.
+Na terceira questão caiu reconhecer um contador síncrono de 0 a 7 em binário
+com flip-flop tipo D (aquele que usa porta-Xor)
