@@ -170,7 +170,7 @@ bool avl_inserir(AVL *arvore, int item) { // Função principal que cria insere 
         int inseriu = 0; // Flag que mostra se foi possível inserir o nó (se ele já existem retorna falso, senão, retorna verdadeiro)
         arvore->raiz = avl_inserir_no(arvore->raiz, novo, &inseriu);
         if(inseriu == 1){
-            free(novo);
+            free(novo); // NÃO TINHA COLOCADO ISSO E PERDI MEIO PONTO POR ISSO
             return false;
         }
         return (true);
