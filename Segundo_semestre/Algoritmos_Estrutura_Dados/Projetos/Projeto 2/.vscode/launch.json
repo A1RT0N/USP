@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": false,
-      "cwd": "/home/ayrton/Documents/Programação/USP/Aulas_ICC_ALG/ALG/Projeto 2",
-      "program": "/home/ayrton/Documents/Programação/USP/Aulas_ICC_ALG/ALG/Projeto 2/build/Debug/outDebug",
+      "cwd": "/home/ayrton/Documents/USP/Segundo_semestre/Algoritmos_Estrutura_Dados/Projetos/Projeto 2",
+      "program": "/home/ayrton/Documents/USP/Segundo_semestre/Algoritmos_Estrutura_Dados/Projetos/Projeto 2/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
