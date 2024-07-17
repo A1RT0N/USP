@@ -1,0 +1,47 @@
+ENSINANDO COMO CRIAR UM PROJETO E SUBI-LO PRO GITHUB
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+criar um projeto
+git init
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+git add .
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+git commit -am ""
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Crie um repositorio no Github
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+cria uma origin
+git remote add nome_da_origin SSH do repositorio
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Agora que vc ja tem o commit e que vc tem a origin criada
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+git push -u nome_da_origin nome_da_branch_a_ser_enviada_para_o_repositorio
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+APARTIR DAQUI EU TO TE ENSINANDO COMO CRIAR UM PULL REQUEST
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Dar um git push enviando as alteracoes da branch master faz com que o merge seja aplicado direto, sem pull request nenhum
+Entao para que haja um pull request e necessario que o git push seja feito apartir de outra branch que n seja o master
+exemplo:
+git push -u nome_da_origin nome_de_outra_branch_que_n_seja_a_master
+
+para criar uma nova branch que tenha todas as alteracoes do branch antiga usamos
+git branch nome_da_nova_branch
+
+E agora criamos uma nova branch com todos os dados da ultima branch
+Exemplo:
+git branch pato
+
+Para entrar na branch pato usamos
+git checkout pato
+
+Agora tudo que fizermos dentro do projeto exemplo: git adds, commits e etc, sera salvo na branch pato
+E quando dermos o push faremos da seguinte maneira
+Ao inves de:
+git push -u nome_da_origin master
+
+Vamos fazer:
+git push -u nome_da_origin pato

@@ -1,0 +1,64 @@
+Python Orientado Objeto
+
+____________________________________________________
+Classe: (class Uma_classe:)
+Métodos: Nomes de funções dentro de classes.
+Atributos: Nomes de variáveis dentro de funções
+____________________________________________________
+*Método construtor: Inicia automaticamente sempre que a classe for chamada
+ - Sempre é igual a def '__init__(self):'
+		|class Uma_classe:	 |
+		|   def __init__(self):  |
+ - O self dentro dos parâmetros indica que tudo que tiver aquela denominação poderá
+ser citado no plano global.
+		|class Uma_classe:	 |
+		|   def __init__(self):  |
+		|     self.coisa = "abc" |
+		|x = Uma_classe()        |
+		|x.coisa -> Será a var   |
+		| "abc"			 |
+(não é necessário o parâmetro self para externar as atributos na função,
+ mas é necessáio usar o self quando se refere dentro de outros lugares)
+
+*Métodos especiais - sempre começam com __ e agem de acordo com um certo comportamento:
+Ex: __init__(self): -> Roda ao inicializar
+    __add__(self, other): -> Roda ao tentar realizar somas com a classe.
+ - Para todo operador/função que exija manuseamento de binárias existem métodos especiais para impedir manuseamento não requisitado (hacking)
+
+*Métodos Decorators - Preparam os métodos para a leitura e os otimizam de acordo com a função:
+
+ - @staticmethod -> Define que a função não vai utilizar nada da classe dentro do método especificado ou nada de outra classe nele -- Também não precisa de ser chamado para ser inicializado.
+ - Útil para métodos que não exigem (self) para funcionar.
+
+ - @classmethod -> Define que o método é autosuficiente, podendo adicionar outros valores a classe, mas não puxa nenhum valor de dentro da classe (incluindo o __init__) -> pode chamar o método sem chamar a classe(ex1), apenas se referindo(ex2) a ela.
+ex1: Classe().Metodo()
+ex2: Classe.Metodo()
+ - Em vez de (self), usa-se (cls).
+
+*Encapsulamento:
+ - Método de segurança útil e eficaz - Normalmente suficiente para a maioria dos códigos.
+ - Consiste em fazer um sistema de segurança, onde se define um atributo como sensor, fazer um getter (que só funciona com o setter) e um setter, que recebe o valor e filtra para enviar para o getter.
+
+.. Passo 1: Definir um atributo com encapsulamento básico (__)
+ex1: 
+		|class Uma_classe:	                 |
+		|    def __init__(self, coisa_nome):     |
+                |     self.tudo = list()                 |
+		|     self.__coisa = coisa_nome          |<-- Esse é o sensor
+		|     if self.__coisa != "               |
+		|       self.tudo.append(self.__coisa)   |
+
+.. Passo 2: Definir um 'getter' com o Decorator @property (que tem a função de perceber se há a tentativa de mudança do atributo) -> Antes de mudar o atributo, o getter pega o valor que está sendo alterado e manda para o  parâmetro do setter.
+ex2:
+		|    @Property                           |
+		|    def __coisa(self):                  |
+                |     return self.patch                  |
+
+.. Passo 3: Definir um 'setter' com o Decorator do nome do (atributo)+(.setter), que pega o valor enviado pelo getter e analisa ele, vendo se o valor já existe ou não (no exemplo, esses valores estão armazenados no self.tudo), e após a execução completa do setter, o valor analisado retorna para o getter, que retorna para o atributo.
+ex3:
+                |     @__coisa.setter                    |
+                |     def __coisa(self, secret)          |
+                |      if not secret in self.tudo:       |
+                |        self.patch = secret             |
+                |      else:                             |
+                |        self.patch = ""                 |
