@@ -1,0 +1,19 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Run RISC-V Assembly",
+            "type": "shell",
+            "command": "java -jar \"/home/ayrton/Documents/Programação/Terceiro semestre/Org Comp/rars1_5.jar\" nc \"/home/ayrton/Documents/Programação/Terceiro semestre/Org Comp/ex_fat_rec.asm\"",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared"
+            },
+            "problemMatcher": []
+        }
+    ]
+}
