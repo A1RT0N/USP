@@ -1,6 +1,5 @@
 # USP
 Arquivos e códigos do meu curso de Bacharelado em Ciências da Computação na USP - ICMC
 
-<a href="https://tourmaline-wishbone-2a2.notion.site/NOTEBOOK-1c95a751463d47a29457b88de3c577bb" target="_blank">
-  <img src="https://via.placeholder.com/150" alt="Descrição do link">
-</a>
+[NOTEBOOK](https://tourmaline-wishbone-2a2.notion.site/NOTEBOOK-1c95a751463d47a29457b88de3c577bb)
+
