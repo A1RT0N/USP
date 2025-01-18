@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário AcadArena</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f4f6f9;
+        }
+
+        h1 {
+            text-align: center;
+            color: #007bff;
+        }
+
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        .form-label {
+            font-weight: 500;
+        }
+
+        .form-control,
+        .form-select {
+            border-radius: 8px;
+        }
+
+        .btn-primary {
+            background-color: #007bff;
+            border-color: #007bff;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn-primary:hover {
+            background-color: #0056b3;
+        }
+
+        .form-check-label {
+            margin-left: 10px;
+        }
+
+        .form-text {
+            color: #6c757d;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container my-5">
+        <h1 class="mb-4">Formulário AcadArena</h1>
+        <form>
+            <div class="row g-3">
+                <!-- Nome -->
+                <div class="col-md-6">
+                    <label for="nome" class="form-label">Nome *</label>
+                    <input type="text" class="form-control" id="nome" placeholder="Digite seu nome" value="Théo" required>
+                </div>
+
+                <!-- Sobrenome -->
+                <div class="col-md-6">
+                    <label for="sobrenome" class="form-label">Sobrenome *</label>
+                    <input type="text" class="form-control" id="sobrenome" placeholder="Digite seu sobrenome" value="Da Mota" required>
+                </div>
+
+                <!-- Email -->
+                <div class="col-md-6">
+                    <label for="email" class="form-label">Email *</label>
+                    <input type="email" class="form-control" id="email" placeholder="Digite seu email" value="theomsantos@hotmail.com" required>
+                </div>
+
+                <!-- Telefone -->
+                <div class="col-md-6">
+                    <label for="telefone" class="form-label">Telefone *</label>
+                    <input type="text" class="form-control" id="telefone" placeholder="Digite seu telefone" value="19996401902" required>
+                </div>
+
+                <!-- Gênero -->
+                <div class="col-md-6">
+                    <label class="form-label">Com qual gênero você se identifica? *</label>
+                    <select class="form-select" required>
+                        <option value="" disabled>Selecione uma opção</option>
+                        <option value="homem-cis" selected>Homem cisgênero</option>
+                        <option value="homem-trans">Homem transgênero</option>
+                        <option value="mulher-cis">Mulher cisgênero</option>
+                        <option value="mulher-trans">Mulher transgênero</option>
+                        <option value="nao-binario">Não-binário</option>
+                        <option value="prefiro-nao-informar">Prefiro não informar</option>
+                        <option value="outro">Outro</option>
+                    </select>
+                </div>
+
+                <!-- Data de Nascimento -->
+                <div class="col-md-6">
+                    <label for="dataNascimento" class="form-label">Data de nascimento *</label>
+                    <input type="date" class="form-control" id="dataNascimento" required>
+                </div>
+
+                <!-- Universidade -->
+                <div class="col-md-6">
+                    <label for="universidade" class="form-label">Universidade *</label>
+                    <input type="text" class="form-control" id="universidade" placeholder="Digite sua universidade" required>
+                </div>
+
+                <!-- Cidade do Campus -->
+                <div class="col-md-4">
+                    <label for="cidadeCampus" class="form-label">Cidade do Campus *</label>
+                    <input type="text" class="form-control" id="cidadeCampus" value="São Carlos" required>
+                </div>
+
+                <!-- Estado -->
+                <div class="col-md-2">
+                    <label for="estado" class="form-label">Estado *</label>
+                    <input type="text" class="form-control" id="estado" required>
+                </div>
+
+                <!-- Nome de usuário no ChallengerMode -->
+                <div class="col-md-6">
+                    <label for="challengerUsername" class="form-label">Nome de usuário no ChallengerMode *</label>
+                    <input type="text" class="form-control" id="challengerUsername" value="ThéoMota123" required>
+                </div>
+
+                <!-- Link do perfil ChallengerMode -->
+                <div class="col-md-6">
+                    <label for="challengerLink" class="form-label">Link do perfil ChallengerMode *</label>
+                    <input type="url" class="form-control" id="challengerLink" value="https://challengermode.com/users/ThéoMota123" required>
+                </div>
+
+                <!-- Confirmação do membro no AcadArena -->
+                <div class="col-md-12">
+                    <div class="form-check mb-3">
+                        <input type="checkbox" class="form-check-input" id="membroConfirmado" required>
+                        <label for="membroConfirmado" class="form-check-label">Confirmo que entrei como membro no espaço da AcadArena</label>
+                    </div>
+                </div>
+
+                <!-- Nome no Discord -->
+                <div class="col-md-6">
+                    <label for="discordUsername" class="form-label">Nome no Discord AcadArena *</label>
+                    <input type="text" class="form-control" id="discordUsername" value="TheoDiscord#1234" required>
+                </div>
+
+                <!-- Comprovante de Matrícula -->
+                <div class="col-md-6">
+                    <label for="comprovante" class="form-label">Comprovante de matrícula 2024 *</label>
+                    <input type="file" class="form-control" id="comprovante" accept=".pdf, .jpg, .png" required>
+                    <small class="form-text">Atenção: O arquivo precisa ser PDF ou imagem (máximo 10 MB).</small>
+                </div>
+
+                <!-- Mais perguntas -->
+                <div class="col-md-12">
+                    <label class="form-label">Você gostaria de responder mais perguntas sobre você?</label>
+                    <div class="form-check">
+                        <input type="radio" class="form-check-input" id="maisSim" name="maisPerguntas" value="sim" required>
+                        <label for="maisSim" class="form-check-label">Sim, vamos lá!</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" class="form-check-input" id="maisNao" name="maisPerguntas" value="nao" required>
+                        <label for="maisNao" class="form-check-label">Não, fica para uma próxima</label>
+                    </div>
+                </div>
+
+                <!-- Botão de Envio -->
+                <div class="col-md-12">
+                    <button type="submit" class="btn btn-primary w-100">Enviar →</button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,4 @@
+flask
+mangum
+playwright
+greenlet

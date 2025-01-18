@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "SUCN",
+    "slug": "SUCN",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./front-end/assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./front-end/assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "appIphone"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./front-end/assets/adaptative-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.ayrton_filho_dev.SUCN"
+    },
+    "web": {
+      "favicon": "./front-end/assets/favicon.png"
+    },
+    "plugins": [
+      "expo-font"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "4c3cbb8c-d204-4c08-a1cf-59b1d2f235fd"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/4c3cbb8c-d204-4c08-a1cf-59b1d2f235fd"
+    },
+    "owner": "ayrton_filho_dev"
+  }
+}
